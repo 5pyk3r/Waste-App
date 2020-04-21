@@ -18,7 +18,7 @@ Just wait a while for an app. Should run in a minute.
   - npm: 3.10.10 or above
   
 ## About
-  Waste-App was build as a project on university. Basic task of an app are
+  Waste-App was build as a project on university. Basic tasks of an app are
   
    - shows details about recycling in each garbage bin
    - simple searching where we can get information where each waste should go to
