@@ -1,0 +1,11 @@
+
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span class="spacer2"><a routerLink="/"><h1 class="text-white">WasteApp </h1></a></span>
+    <span><a *ngIf="hardcodedAuthService.isUserLoggedIn()" routerLink="/admin"><h2 class="text-white"> Admin</h2></a></span>
+
+    <span class="spacer"></span>
+    <span><a *ngIf="!hardcodedAuthService.isUserLoggedIn()" routerLink="/login"><h2 class="text-white">Zaloguj</h2></a></span>
+    <span><a *ngIf="hardcodedAuthService.isUserLoggedIn()" routerLink="/logout"><h2 class="text-white">Wyloguj</h2></a></span>
+  </mat-toolbar-row>
+</mat-toolbar>

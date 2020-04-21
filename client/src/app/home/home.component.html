@@ -1,0 +1,48 @@
+
+<div class="main-container">
+  <div class="alert-login-container">
+    <div class="alert alert-warning" role="alert" *ngIf="error" style="color: red">Nie znaleziono takiego odpadu</div>
+  </div>
+  <form (ngSubmit)="searchWaste()">
+  <div class="search-container">
+    <h1 style="color: #3f51b5">Wyszukaj</h1>
+    <div class="input-group input-group-lg">
+      <input type="text" class="form-control" [(ngModel)]="name" name="name" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="SZUKAJ...">
+      <div class="input-group-prepend">
+        <button type="submit" class="btn btn-success"><i class="fa fa-search"></i></button>
+      </div>
+    </div>
+  </div>
+  </form>
+  <div class="waste-blocks-container">
+
+    <a class="btn waste-container" style="background-color: #f8c605" routerLink="/metals">
+        <br>
+      <h2>METALE I</h2>
+      <h2>TWORZYWA</h2>
+      <h2>SZTUCZNE</h2>
+    </a>
+
+    <a class="btn waste-container" style="background-color: #86ba3e" routerLink="/glass">
+      <br><br>
+      <h2 style="text-align: center">SZKŁO</h2>
+    </a>
+
+    <a class="btn waste-container" style="background-color: #36aadd" routerLink="/paper">
+      <br><br>
+      <h2 style="text-align: center">PAPIER</h2>
+    </a>
+
+    <a class="btn waste-container" style="background-color: #aa7436" routerLink="/bio">
+      <br><br>
+      <h2 style="text-align: center">BIO</h2>
+    </a>
+
+    <a class="btn waste-container" style="background-color: #7792b0" routerLink="/mixed">
+      <br><br>
+      <h2 style="text-align: center">ZMIESZANE </h2>
+    </a>
+  </div>
+</div>
+
+

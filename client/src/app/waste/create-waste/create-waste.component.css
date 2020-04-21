@@ -1,0 +1,12 @@
+.main-container{
+  width: 600px;
+  margin: 50px auto;
+}
+.mat-select{
+  width: 600px;
+}
+.alert-login-container{
+  width: 60%;
+  margin: 50px auto;
+  text-align: center ;
+}

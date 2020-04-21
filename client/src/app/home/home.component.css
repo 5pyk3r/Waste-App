@@ -1,0 +1,46 @@
+.main-container{
+  width: 1200px;
+  margin: auto;
+  height: 1000px;
+}
+.search-container{
+  width: 600px;
+  margin: 50px auto;
+  height: 200px;
+}
+.waste-blocks-container{
+  margin: auto;
+  height: 200px;
+  display: flex;
+}
+.waste-container{
+  padding: 25px;
+  /*background-color: green;*/
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+ }
+.waste-container:hover {
+  transform: scale(1.4);
+}
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+h2{
+  font-size: x-large;
+  color: white;
+  font-family: "Bahnschrift";
+}
+h1{
+  font-size: xx-large;
+  color: white;
+  font-family: "Bahnschrift";
+}

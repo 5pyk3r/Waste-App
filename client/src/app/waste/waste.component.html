@@ -1,0 +1,30 @@
+
+<div class="main-container">
+  <form (ngSubmit)="updateWaste()">
+    <div class="alert-login-container">
+      <div class="alert alert-warning" role="alert" *ngIf="name.invalid && (name.dirty || name.touched)" style="color: red">Nazwa musi mieć conajmniej 3 litery</div>
+    </div>
+
+    <div class="form-group">
+      <label><h2>Nazwa odpadu</h2></label>
+        <input type="text" class="form-control" [(ngModel)]="waste.name" name="wasteName" id="name" required minlength="3" #name="ngModel">
+    </div>
+
+    <div class="form-group">
+      <br>
+      <label><h2>Wybierz typ odpadu</h2></label>
+      <br>
+  <mat-form-field>
+    <mat-select [placeholder]="waste.wasteType.name" [(value)]="waste.wasteType" name="type">
+      <mat-option *ngFor="let wasteType of wasteTypes" [value]="wasteType">
+        {{wasteType.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+      <br><br>
+</div>
+    <button type="submit" class="btn btn-primary">Update waste</button>
+  </form>
+</div>
+
+

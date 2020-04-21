@@ -1,0 +1,11 @@
+@import url("https://code.jquery.com/jquery-3.2.1.slim.min.js");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.jss");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js");
+
+@import url("https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

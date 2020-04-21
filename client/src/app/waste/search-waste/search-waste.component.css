@@ -1,0 +1,10 @@
+.main-container{
+  width: 600px;
+  margin: 50px auto;
+
+}
+h1{
+  font-size: xx-large;
+  color: #3f51b5;
+  font-family: "Bahnschrift";
+}

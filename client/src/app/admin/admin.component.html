@@ -1,0 +1,32 @@
+
+<div class="main-container">
+  <h2>Lista odpadów</h2><hr class="my-4">
+
+
+  <button type="button" class="btn btn-success" (click)="createWaste()">Dodaj odpad</button>
+
+  <br><br>
+  <table class="table">
+    <thead>
+    <tr>
+<!--      <th scope="col">ID</th>-->
+      <th scope="col">Nazwa</th>
+      <th scope="col">Typ odpadu</th>
+      <th scope="col">Update</th>
+      <th scope="col">Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let wasteData of waste">
+<!--      <th scope="row">{{wasteData.id}}</th>-->
+      <td>{{wasteData.name}}</td>
+      <td>{{wasteData.wasteType.name}}</td>
+      <td><button (click)="updateWaste(wasteData.id)" class="btn btn-primary">Update</button></td>
+      <td><button (click)="deleteWaste(wasteData.id)" class="btn btn-danger">Delete</button></td>
+    </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
