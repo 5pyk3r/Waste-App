@@ -22,8 +22,9 @@ Just wait a while for an app. Should run in a minute.
   
    - shows details about recycling in each garbage bin
    - simple searching where we can get information where each waste should go to
-   - admin mode with basic auth 
+   - admin mode with basic authentication 
    - CRUD operations on waste in admin mode
+   - some info about recycling
     
 ### Home Page
 ![Home page]( https://raw.githubusercontent.com/5pyk3r/Waste-App/master/screenshots/home.PNG)
