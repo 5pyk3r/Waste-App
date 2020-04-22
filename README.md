@@ -22,7 +22,7 @@ Just wait a while for an app. Should run in a minute.
   
    - shows details about recycling in each garbage bin
    - simple searching where we can get information where each waste should go to
-   - admin mode with basic authentication 
+   - admin mode with basic authentication, login: admin, password: admin
    - CRUD operations on waste in admin mode
    - some info about recycling
     
